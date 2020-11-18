@@ -163,7 +163,7 @@ export default class Login extends Component {
                                     buttonText="Login"
                                     onSuccess={this.responseGoogle}
                                     onFailure={this.responseGoogle}
-                                // cookiePolicy={'single_host_origin'}
+                                    cookiePolicy={'single_host_origin'}
                                 />
 
                             </div>
